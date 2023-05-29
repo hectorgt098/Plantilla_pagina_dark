@@ -333,3 +333,35 @@ img{
     grid-column: 1;
     height: 40px;
 }
+
+/* MEDIA SCREENS PARA EL RESPONSIVE */
+
+@media (max-width:820px) {
+    .Hero{
+        flex-direction: column-reverse;
+        gap: 50px;
+        width: 90vw;
+        
+    }
+    .txtinit{
+        width: 80vw;
+        text-align: center;
+    }
+    .txtinit h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:670px){
+    .nav-bar{
+        display: none;
+    }
+    
+}
+
+@media (max-width:500px){
+    .Hero img{
+        width: 70vw;
+    }
+}
+
